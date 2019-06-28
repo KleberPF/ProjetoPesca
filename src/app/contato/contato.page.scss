@@ -1,9 +1,25 @@
+ion-content
+{
+    --background: url("https://cdn.pixabay.com/photo/2018/01/05/02/47/fish-3062034_960_720.jpg") 0 0/100% 100% no-repeat;
+}
+
+ion-item
+{
+    --ion-background-color: transparent;
+}
+
+ion-input{
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+}
+
 .texto
 {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .input

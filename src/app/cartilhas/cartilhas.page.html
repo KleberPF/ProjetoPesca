@@ -9,13 +9,19 @@
     Confira abaixo algumas cartilhas sobre vários assuntos relacionados à pesca artesanal:
   </div>
   <div class="lista">
-    <ion-list>
       <ion-item>
-        <ion-label>[Cartilha 1]</ion-label>
+        <ion-label color="light" onclick="window.open('https://www.funbio.org.br/wp-content/uploads/2017/12/Cartilha-do-Pescador-110316.pdf', '_blank', 'location=yes'); return false;">Cuidados que se devem ter para manipular e armazenar os produtos da pesca artesanal</ion-label>
+        <ion-button (click)="openModal(1)">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-button>
       </ion-item>
       <ion-item>
-        <ion-label>[Cartilha 2]</ion-label>
+        <ion-label color="light" onclick="window.open('http://www.cppnacional.org.br/sites/default/files/publicacoes/Influencias-Das-Mudancas-Climaticas-Na-Pesca-Artesanal.pdf', '_blank', 'location=yes'); return false;">Consequências das mudanças climáticas na pesca</ion-label>
+        <ion-button (click)="openModal(2)">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-button>
       </ion-item>
+      <!--
       <ion-item>
         <ion-label>[Cartilha 3]</ion-label>
       </ion-item>
@@ -46,6 +52,6 @@
       <ion-item>
         <ion-label>[Cartilha 12]</ion-label>
       </ion-item>
-    </ion-list>
+      -->
   </div>
 </ion-content>

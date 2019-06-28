@@ -13,13 +13,13 @@ export class VideosPage implements OnInit {
 
   constructor(public modalController: ModalController) { }
 
-  async openModal() {
+  async openModal(indice) {
     const modal = await this.modalController.create({
       component: DescricaoPage,
       componentProps: {
-        "descricao1": "Esta é a descrição do vídeo 1.",
-        "descricao2": "Esta é a descrição do vídeo 2.",
-        "descricao3": "Esta é a descrição do vídeo 3."
+        "descricoes": ["Esta é a descrição do vídeo 1.", "Esta é a descrição do vídeo 2.", "Esta é a descrição do vídeo 3.",
+        "Esta é a descrição do vídeo 4.","Esta é a descrição do vídeo 5."],
+        "indice": indice
         //"paramID": 123,
         //"paramTitle": "Descrição"
       }

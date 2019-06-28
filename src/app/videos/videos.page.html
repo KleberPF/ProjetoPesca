@@ -9,14 +9,24 @@
     Confira abaixo alguns vídeos sobre vários assuntos relacionados à pesca artesanal:
   </div>
   <div class="lista">
-    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://img.youtube.com/vi/QO9Q2BtxN3w/mqdefault.jpg">
+        </ion-thumbnail>
+        <ion-label color="light" onclick="window.open('https://www.youtube.com/watch?v=QO9Q2BtxN3w', '_blank', 'location=yes'); return false;">Vida dos Pescadores da Pesca Artesanal<br>
+        </ion-label>
+        <ion-button (click)="openModal(1)">
+          <ion-icon name="information-circle-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <!--
       <ion-item>
         <ion-thumbnail slot="start">
           <img src="https://img.youtube.com/vi/fCYXZDzVDh0/mqdefault.jpg">
         </ion-thumbnail>
-        <ion-label>[Nome]<br>
+        <ion-label color="light">[Nome]<br>
         </ion-label>
-        <ion-button (click)="openModal()">
+        <ion-button (click)="openModal(2)">
           <ion-icon name="information-circle-outline"></ion-icon>
         </ion-button>
       </ion-item>
@@ -24,9 +34,9 @@
         <ion-thumbnail slot="start">
           <img src="https://img.youtube.com/vi/fCYXZDzVDh0/mqdefault.jpg">
         </ion-thumbnail>
-        <ion-label>[Nome]<br>
+        <ion-label color="light">[Nome]<br>
         </ion-label>
-        <ion-button (click)="openModal()">
+        <ion-button (click)="openModal(3)">
           <ion-icon name="information-circle-outline"></ion-icon>
         </ion-button>
       </ion-item>
@@ -34,9 +44,9 @@
         <ion-thumbnail slot="start">
           <img src="https://img.youtube.com/vi/fCYXZDzVDh0/mqdefault.jpg">
         </ion-thumbnail>
-        <ion-label>[Nome]<br>
+        <ion-label color="light">[Nome]<br>
         </ion-label>
-        <ion-button (click)="openModal()">
+        <ion-button (click)="openModal(4)">
           <ion-icon name="information-circle-outline"></ion-icon>
         </ion-button>
       </ion-item>
@@ -44,22 +54,12 @@
         <ion-thumbnail slot="start">
           <img src="https://img.youtube.com/vi/fCYXZDzVDh0/mqdefault.jpg">
         </ion-thumbnail>
-        <ion-label>[Nome]<br>
+        <ion-label color="light">[Nome]<br>
         </ion-label>
-        <ion-button (click)="openModal()">
+        <ion-button (click)="openModal(5)">
           <ion-icon name="information-circle-outline"></ion-icon>
         </ion-button>
       </ion-item>
-      <ion-item>
-        <ion-thumbnail slot="start">
-          <img src="https://img.youtube.com/vi/fCYXZDzVDh0/mqdefault.jpg">
-        </ion-thumbnail>
-        <ion-label>[Nome]<br>
-        </ion-label>
-        <ion-button (click)="openModal()">
-          <ion-icon name="information-circle-outline"></ion-icon>
-        </ion-button>
-      </ion-item>
-    </ion-list>
+      -->
   </div>
 </ion-content>
