@@ -17,8 +17,11 @@ export class CartilhasPage implements OnInit {
     const modal = await this.modalController.create({
       component: DescricaoPage,
       componentProps: {
-        "descricoes": ["Esta é a descrição da cartilha 1.", "Esta é a descrição da cartilha 2.", "Esta é a descrição da cartilha 3.",
-        "Esta é a descrição da cartilha 4.","Esta é a descrição da cartilha 5."],
+        "descricoes": ["Esta cartilha fala sobre os cuidados que devem ser tomados na manipulação de produtos da pesca artesanal, como o pescado pode ser contaminado e como deve ser a higienização dos manipuladores de pescado.",
+        "Esta cartilha fala sobre as influências das mudanças climáticas na pesca artesanal, como a desregulação do nível das águas, descontrole dos ventos e aumento no volume das chuvas.", 
+        "Esta é a descrição da cartilha 3.",
+        "Esta é a descrição da cartilha 4.",
+        "Esta é a descrição da cartilha 5."],
         "indice": indice
         //"paramID": 123,
         //"paramTitle": "Descrição"

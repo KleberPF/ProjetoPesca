@@ -13,6 +13,16 @@
     </ion-row>
     <ion-row>
       <ion-col text-center>
+        Deixe sua avaliação:
+        <ion-range min="0" max="5" step="1" snaps="true" ticks="true" [(ngModel)]="nota">
+          <ion-label slot="start">0</ion-label>
+          <ion-label slot="end">5</ion-label>
+        </ion-range>
+        <ion-button>Enviar</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
         <ion-button (click)="closeModal()">Fechar</ion-button>
       </ion-col>
     </ion-row>

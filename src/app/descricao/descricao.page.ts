@@ -10,6 +10,7 @@ export class DescricaoPage implements OnInit {
 
   modalTitle: string;
   modelId: number;
+  nota: number;
 
   constructor(private modalController: ModalController,
     private navParams: NavParams) { }
