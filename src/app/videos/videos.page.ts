@@ -26,7 +26,8 @@ export class VideosPage implements OnInit {
         "A crise hídrica enfrentada pelos pescadores artesanais de águas interiores influencia na pesca e na renda desses trabalhadores. Assim, um grupo de pescadores de São João da Barra se uniu para pedir a limpeza dos canais da região.",
         "Os pescadores de São João da Barra consquistam a limpeza de parte do rio Quitingute e buscam pela continuidade da limpeza para o restante do rio.",
         "O vídeo mostra a história do pescador e poeta Tio Jorge, que fala das dificuldades e alegrias da vida de pescador, misturando sua história com a da região onde vive."],
-        "indice": indice
+        "indice": indice,
+        "categoria": "Videos"
         //"paramID": 123,
         //"paramTitle": "Descrição"
       }

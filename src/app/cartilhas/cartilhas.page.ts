@@ -22,7 +22,8 @@ export class CartilhasPage implements OnInit {
         "Esta é a descrição da cartilha 3.",
         "Esta é a descrição da cartilha 4.",
         "Esta é a descrição da cartilha 5."],
-        "indice": indice
+        "indice": indice,
+        "categoria": "Cartilhas"
         //"paramID": 123,
         //"paramTitle": "Descrição"
       }

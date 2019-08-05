@@ -1,5 +1,7 @@
 {
   "name": "ProjetoPesca",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

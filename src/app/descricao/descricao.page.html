@@ -18,7 +18,8 @@
           <ion-label slot="start">0</ion-label>
           <ion-label slot="end">5</ion-label>
         </ion-range>
-        <ion-button>Enviar</ion-button>
+        Média das avaliações: {{media}} <br><br>
+        <ion-button (click)="atualizaNotaBD()">Enviar</ion-button>
       </ion-col>
     </ion-row>
     <ion-row>
