@@ -36,7 +36,7 @@ export class DescricaoPage implements OnInit {
         if (this.cartilhas[id].quantidade_avaliacoes == 0)
           this.media = 0;
         else
-          this.media = this.cartilhas[id].soma_avaliacoes / this.cartilhas[id].quantidade_avaliacoes;
+          this.media = (this.cartilhas[id].soma_avaliacoes / this.cartilhas[id].quantidade_avaliacoes).toFixed(1);
       });
     }
     if (this.colecao == "Videos") {
@@ -50,7 +50,7 @@ export class DescricaoPage implements OnInit {
         if (this.videos[id].quantidade_avaliacoes == 0)
           this.media = 0;
         else
-          this.media = this.videos[id].soma_avaliacoes / this.videos[id].quantidade_avaliacoes;
+          this.media = (this.videos[id].soma_avaliacoes / this.videos[id].quantidade_avaliacoes).toFixed(1);
       });
     }
   }
